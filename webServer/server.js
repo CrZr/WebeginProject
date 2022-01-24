@@ -2,7 +2,7 @@ const http = require("http");
 const fs = require('fs').promises;
 
 const mysql = require('mysql');
-const db = mysql.createConnection({host: "localhost", user: "admin", password: "adminPass"});
+const db = mysql.createConnection({host: "localhost", user: "user", password: "userPass"});
 db.connect(function(err) {
     if (err) throw err;
     console.log("Connecté à la base de données MySQL!");
