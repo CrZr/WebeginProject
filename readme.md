@@ -20,6 +20,14 @@ Outil de monitoring sur des bases de données
 
 api pour envoyer des mails : sendgrid
 
+chart.js : outil graphiques
+
+notif firebase.
+
+https://www.sqlitetutorial.net/sqlite-nodejs/insert/
+
+https://www.sqlitetutorial.net/sqlite-nodejs/query/
+
 
 ### indications pour manoa : 
 
