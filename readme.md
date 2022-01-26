@@ -15,6 +15,7 @@ Outil de monitoring sur des bases de données
 - Serveur nodeJs
 - Bdd mysql
 - Front html, TailwindCss
+- Potentielle dockerisation
 
 ## Tipss
 
