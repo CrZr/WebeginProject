@@ -9,6 +9,9 @@ Outil de monitoring sur des bases de données
 - Notifications (alertes sur les bdd)
 - Affichage de graphiques
 - Intégration graphiques de base de données
+- Token de session JWT
+- authentification
+- gitignore vrreuumant
 
 ## Archi
 
@@ -25,26 +28,51 @@ chart.js : outil graphiques
 
 notif firebase.
 
-https://www.sqlitetutorial.net/sqlite-nodejs/insert/
+<https://www.sqlitetutorial.net/sqlite-nodejs/insert/>
 
-https://www.sqlitetutorial.net/sqlite-nodejs/query/
+<https://www.sqlitetutorial.net/sqlite-nodejs/query/>
 
+## Tables SqLite
 
-### indications pour manoa : 
+Table client :
 
-sur mon pc je me place dans le fichier webserver, je fais `node ./server.js`
-on a donc le site qui saffiche,
+- ClientID
+- Sex
+- LastVisitDate
+- VisitCount
+- Age
 
-je me suis aussi penché sur la connexion a une db mysql mais j'ai une erreur et je suis fatigué
+Table revenus :
 
-trucs a faire : 
+- DayID
+- DayIncome
+- Date
+- Losses
+- SoldArticlesCount
 
-- trouver ou créer une base de données avec de la data pour afficher ça sur le site
+Table articles :
 
-- connecter cette base et commencer a afficher des infos dessus
+- ArticleId
+- Name
+- StockCount
+- SoldCount
 
-je pense que yannis notera nos projets à partir de mercredi parcqu'il doit rentrer notre note de milieu d'année le 29,
+Table soldArticles :
 
-je veux essayer d'avoir au moins l'affichage depuis la bdd
+- SoldId
+- ArticleID
+- Price
 
-Merci et dabisous
+Table Users :
+
+- UserId
+- Email
+- Password
+
+### TODO
+
+connecter le front de l'ancienne archi au nouveau serveur ( le front est dans le fichier webServer et le back dans WebServerTest)
+
+lancer les webserver : "node .\index.js" ou "node .\server.js"
+
+la bonne db est dans WebServerTest\jwt-project\database\OGchinook.db
