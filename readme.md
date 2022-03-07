@@ -32,6 +32,8 @@ notif firebase.
 
 <https://www.sqlitetutorial.net/sqlite-nodejs/query/>
 
+<https://www.section.io/engineering-education/how-to-build-authentication-api-with-jwt-token-in-nodejs/>
+
 ## Tables SqLite
 
 Table client :
