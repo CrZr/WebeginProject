@@ -17,10 +17,17 @@ Outil de monitoring sur des bases de données
 
 - Serveur nodeJs
 - Bdd mysql
-- Front html, TailwindCss
+- Front html, TailwindCss, EJS : embbed javascript template
 - Potentielle dockerisation
 
 ## Tipss
+
+### USAGE
+
+`cd jwt-project`
+`npm start`
+
+### reminder
 
 api pour envoyer des mails : sendgrid
 
@@ -78,3 +85,5 @@ connecter le front de l'ancienne archi au nouveau serveur ( le front est dans le
 lancer les webserver : "node .\index.js" ou "node .\server.js"
 
 la bonne db est dans WebServerTest\jwt-project\database\OGchinook.db
+
+USAGE : @ WebeginProject\WebServerTest\jwt-project => nodemon index.js
