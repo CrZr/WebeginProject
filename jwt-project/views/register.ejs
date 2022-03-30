@@ -1,0 +1,35 @@
+<%- include('header.ejs') %>
+
+    <div class="container w-full mx-auto pt-28">
+        <div class="w-full px-4 md:px-0 md:mt-8 mb-16 text-gray-800 leading-normal">
+            <div class="flex flex-row flex-wrap justify-center w-full flex-grow mt-2">
+
+                <div class="w-full md:w-2/3 p-3 my-22 m-12">
+                    <div class="bg-gray-900 border border-gray-800 rounded shadow">
+                        <div class="border-b border-gray-800 p-3">
+                            <h5 class="font-bold uppercase text-gray-600">Informations du profil</h5>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex flex-row flex-wrap justify-around">
+                                <div>
+                                    <p class="py-2 text-white">Nom de l'entreprise : </p>
+                                    <p class="py-1">PandaIndustries</p>
+                                </div>
+                                <div>
+                                    <p class="py-2 text-white">Membre depuis : </p>
+                                    <p class="py-1">04/4/20</p>
+                                </div>
+                                <div>
+                                    <p class="py-2 text-white">Logo : </p>
+                                    <img class="w-8 h-8 rounded-full mr-4" src="http://i.pravatar.cc/300"
+                                        alt="Avatar of User">
+                                </div>
+                            </div>
+
+                            <p class="py-4"><a href="#" class="text-white">Modifier le profil..</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%- include('footer.ejs') %>
